@@ -127,7 +127,7 @@ if uploaded_file is not None:
             # Sidebar Container
             sidebar = st.sidebar.container()
             with sidebar:
-                st.image("/home/dhanunjay/Desktop/myproject/icons/FaFa_icon_rmbg.png",width=200)
+                st.image("icons/FaFa_icon_rmbg.png",width=200)
                 st.sidebar.subheader("Select Region:")
                 city = st.sidebar.multiselect("Select The area:", df["Address"].unique(),default=None)
 
