@@ -1,4 +1,4 @@
-**#FAFA**
+**#[FAFA]#Financial Assiatance For Analysis**
 
 This is a python based visalization tool which is using Python's one of the most powerful Library called "StreamLit".
 
