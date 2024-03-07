@@ -6,7 +6,7 @@ import plotly.express as px
 # Load data with caching
 # buttons="""<button class="btn btn-danger">Home</button>"""
 # name="""<body><h1 id="h1" style="background-color:green;"></h1>
-#       <marquee direction="right">sravan</marquee>
+#       
 #       <script>
 #          document.getElementById("h1").innerHTML="sravan potnuru"
 #       </script></body>"""
@@ -92,7 +92,7 @@ if uploaded_file is not None:
             "Date": st.sidebar.text_input("Enter the name of the date attribute:", "Date"),
             "Amount": st.sidebar.text_input("Enter the name of the amount attribute:", "Amount"),
             "Status": st.sidebar.text_input("Enter the name of the status attribute:", "Status"),
-            "Order": st.sidebar.text_input("Enter the name of the order attribute:", "Order (optional)"),
+            "Order": st.sidebar.text_input("Enter the name of the order attribute (optional):", "Order"),
         }
 
         # Check for missing user-defined columns and update the DataFrame if needed
